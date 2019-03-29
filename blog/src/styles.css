@@ -1,0 +1,51 @@
+/* You can add global styles to this file, and also import other style files */
+html {
+  scroll-behavior: smooth;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+ul li {
+  padding: 40px;
+}
+form {
+  display: block;
+  align-items: center;
+}
+
+.footer{
+  text-align: center;
+}
+
+.navbar{
+  justify-content: center;
+}
+
+.sidebar{
+  justify-content: flex-end;
+}
+.scroll {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  display: none;
+}
+.offset{
+  margin-left: 10%;
+}
+
+.correct{
+  background-color: lawngreen;
+}
+
+.incorrect{
+  background-color: red;
+}
+
+.neutral{
+  background-color: white;
+}
