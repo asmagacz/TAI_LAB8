@@ -1,4 +1,5 @@
-<div *ngFor="let item of items$ | filter: filterText">
-  <blog-item [image]="item.url" [text]="item.title">
+<selectize></selectize>
+<div *ngFor="let item of items$ | filter: filterText" align="center">
+  <blog-item [id]="item.id" [image]="item.image" [text]="item.title">
   </blog-item>
 </div>

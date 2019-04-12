@@ -22,11 +22,11 @@ export class SearchBarComponent implements OnInit {
   }
 
   sendFilter() {
-    this.name.emit(this.filterText);
     this.router.navigate(['/blog'], {queryParams: {name:
         this.filterText}});
-
+    this.name.emit(this.filterText);
   }
+
 
 
 }
