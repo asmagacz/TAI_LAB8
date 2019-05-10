@@ -22,7 +22,7 @@ export class BlogItemDetailsComponent implements OnInit {
         id = params.get('id');
       });
     if (id) {
-      this.dataService.getById(id).subscribe(res => {
+      this.dataService.get(id).subscribe(res => {
         this.image = res['image'];
         this.text = res['text'];
       });
