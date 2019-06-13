@@ -6,6 +6,7 @@ import {QuizComponent} from './components/quiz/quiz.component';
 import {BlogItemDetailsComponent} from './components/blog-item-details/blog-item-details.component';
 import {BlogHomeComponent} from './components/blog-home/blog-home.component';
 import {LoginComponent} from './components/login/login.component';
+import {AddPostComponent} from './components/add-post/add-post.component';
 
 
 const routes: Routes = [
@@ -34,6 +35,10 @@ const routes: Routes = [
   {
     path: 'app-login',
     component: LoginComponent,
+  },
+  {
+    path: 'add-post',
+    component: AddPostComponent
   },
 ];
 
